@@ -1,0 +1,25 @@
+/* eslint-disable array-callback-return */
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import Container from "@material-ui/core/Container";
+
+import "./styles.css";
+export default function GameInit() {
+
+  return (
+    <Container className="container">
+      <div className="app">
+        <p className="text">A seguir você responderá um quiz com <br/>perguntas variadas sobre meio
+          <br/>ambiente, alimentação e testes em <br/>animais.
+            <br/><br/><br/>
+              O objetivo do jogo é apenas avaliar os <br/>seus conhecimentos sobre os tópicos 
+              <br/>citados. </p>
+                <div className="next-question">
+                  <Link className="link" to="/Question01">
+                    <div className="botao-start"><p>Começar</p></div>
+                  </Link>
+                </div>
+      </div>
+    </Container>
+              );
+}
