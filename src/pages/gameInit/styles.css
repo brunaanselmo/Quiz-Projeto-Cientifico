@@ -31,7 +31,7 @@ justify-content: space-evenly;
 }
 
 .next-question{
-  margin-top: 80px;
+  margin-top: 60px;
   margin-left: 15%;
   display: flex;
   flex-direction: row;
