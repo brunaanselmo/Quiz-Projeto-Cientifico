@@ -8,7 +8,7 @@ import { BsHouseDoorFill } from "react-icons/bs";
 import "./styles.css";
 
 
-export default function Question01Error() {
+export default function Question01() {
 
   return (
     <Container className="container">
@@ -17,14 +17,19 @@ export default function Question01Error() {
           <p>QUIZ Meio ambiente e cotidiano</p>
         </div>
         <p className="question-number">Questão 1/15</p>
-        <p className="question">ERRADO</p>
+        <p className="question">Qual a principal causa do desmatamento mundial?</p>
         <div className="anwser">
-        <div><p>Processo de urbanização</p></div>
-        <div><p>Projetos de extração de madeira</p></div>
-        <div><p>Agropecuária</p></div>
-                  <Link className="link" to="/GameInit">
-      
+     
+                  <Link className="link1" to="/Question01 ">
+                  <div className="div1"><p>Processo de urbanização</p></div>
                   </Link>
+                  <Link className="link1" to="/Question01 ">
+                  <div className="div2"><p>Projetos de extração de madeira</p></div>
+                  </Link>
+                  <Link className="link1" to="/Question01  ">
+                  <div className="div3"><p>Agropecuária</p></div>
+                  </Link>
+
                 </div>
       </div>
     </Container>

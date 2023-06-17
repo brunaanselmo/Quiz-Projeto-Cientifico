@@ -3,9 +3,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Home from './pages/home';
 import GameInit from './pages/gameInit'
-import Question01 from './pages/question01'
-import Question01Correct from './pages/question01correct'
-import Question01Error from './pages/question01error'
+import Question01 from './pages/question01/question01question'
+import Question01Correct from './pages/question01/question01correct'
+import Question01Error from './pages/question01/question01error'
 
 export default function Function_Routes() {
   return (
