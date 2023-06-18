@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+  }
+
+.app {
+  background-color: white;
+  width: 1100px;
+  min-height: 520px;
+  height: min-content;
+  border-radius: 7px;
+  /* padding: 90px; */
+  box-shadow: 3px 3px 12px 0px rgba(51, 50, 50, 0.603);
+  justify-content: space-evenly;
+  }
+
+  .title{
+    width: 60%;
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+  }
