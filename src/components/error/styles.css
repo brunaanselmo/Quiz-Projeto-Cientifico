@@ -58,7 +58,6 @@
   display: flex;
   flex-direction: column;
   width: 550px;
-  height: 230px;
   margin-left: 24%;
   padding: 10px;
 }
@@ -66,14 +65,15 @@
 .explicacao-titulo {
   font-weight: 700;
   text-align: center;
-  font-size: 18px;
-  margin-bottom: 2px;
+  font-size: 19px;
+  margin-bottom: 10px;
 }
 
 .explicacao-texto {
-  font-size: 15px;
+  font-size: 19px;
   font-weight: 500;
-  text-align: justify;
+  text-align: center;
+  margin-bottom: 7%;
 }
 
 .link1 {

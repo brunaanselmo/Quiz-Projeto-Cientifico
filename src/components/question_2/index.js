@@ -15,11 +15,11 @@ class Question_02 extends React.Component {
           <p className="question-number">Questão {this.props.number}/13</p>
           <p className="question">{this.props.question}</p>
           <div className="anwser">
-            <Link className="link1" to="{this.props.link01to}">
-              <div className="div1"><p>{this.props.question01}</p></div>
+            <Link className="link1" to={this.props.link01to}>
+              <div className="div1-question02"><p>{this.props.question01}</p></div>
             </Link>
-            <Link className="link1" to="{this.props.link02to}">
-              <div className="div2"><p>{this.props.question02}</p></div>
+            <Link className="link1" to={this.props.link02to}>
+              <div className="div2-question02"><p>{this.props.question02}</p></div>
             </Link>
           </div>
         </div>
