@@ -22,12 +22,9 @@ class Correct extends React.Component {
           <TbMoodHappy style={{ fontSize: "55px", color: "rgb(89, 221, 89)", marginLeft: "65%" }} />
           <div className="explicacao">
             <p className="explicacao-titulo">Explicação:</p>
-            <p className="explicacao-texto">jffhidfhifhfhffffffffffffffffffffffffffffffffffffffff
-              ffffffffffffffffffffffffff
-              fffffffffffffffffffffffffffffffffffffffffffffffffdssdsddssdsdsdasdsssssssfffffff
-            </p>
+            <p className="explicacao-texto">{this.props.explicacao}</p>
           </div>
-          <Link className="link" to="/Question01">
+          <Link className="link" to={this.props.linkto}>
             <div className="proxima"><p>PRÓXIMA</p></div>
           </Link>
         </div>

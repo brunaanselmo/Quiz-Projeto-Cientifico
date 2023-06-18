@@ -16,22 +16,22 @@ export default function Question01() {
         <div className="navbar">
           <p>QUIZ Meio ambiente e cotidiano</p>
         </div>
-        <p className="question-number">Questão 1/15</p>
+        <p className="question-number">Questão 1/13</p>
         <p className="question">Qual a principal causa do desmatamento mundial?</p>
         <div className="anwser">
-     
-                  <Link className="link1" to="/Question01 ">
-                  <div className="div1"><p>Processo de urbanização</p></div>
-                  </Link>
-                  <Link className="link1" to="/Question01 ">
-                  <div className="div2"><p>Projetos de extração de madeira</p></div>
-                  </Link>
-                  <Link className="link1" to="/Question01  ">
-                  <div className="div3"><p>Agropecuária</p></div>
-                  </Link>
 
-                </div>
+          <Link className="link1" to="/Question01 ">
+            <div className="div1"><p>Processo de urbanização</p></div>
+          </Link>
+          <Link className="link1" to="/Question01 ">
+            <div className="div2"><p>Projetos de extração de madeira</p></div>
+          </Link>
+          <Link className="link1" to="/Question01  ">
+            <div className="div3"><p>Agropecuária</p></div>
+          </Link>
+
+        </div>
       </div>
     </Container>
-              );
+  );
 }

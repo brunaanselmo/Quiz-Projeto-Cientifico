@@ -4,7 +4,7 @@ import Container from "@material-ui/core/Container";
 import "./styles.css";
 
 
-class Question extends React.Component {
+class Question_02 extends React.Component {
   render() {
     return (
       <Container className="container">
@@ -15,14 +15,11 @@ class Question extends React.Component {
           <p className="question-number">Questão {this.props.number}/13</p>
           <p className="question">{this.props.question}</p>
           <div className="anwser">
-            <Link className="link1" to={this.props.link01to}>
+            <Link className="link1" to="{this.props.link01to}">
               <div className="div1"><p>{this.props.question01}</p></div>
             </Link>
-            <Link className="link1" to={this.props.link02to}>
+            <Link className="link1" to="{this.props.link02to}">
               <div className="div2"><p>{this.props.question02}</p></div>
-            </Link>
-            <Link className="link1" to={this.props.link03to}>
-              <div className="div3"><p>{this.props.question03}</p></div>
             </Link>
           </div>
         </div>
@@ -31,4 +28,4 @@ class Question extends React.Component {
   }
 }
 
-export default Question;
+export default Question_02;

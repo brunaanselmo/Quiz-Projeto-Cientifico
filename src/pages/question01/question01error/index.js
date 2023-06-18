@@ -27,12 +27,12 @@ export default function Question01Error() {
        <TbMoodSad2 style = {{fontSize: "55px", color: "rgb(89, 221, 89)", marginLeft: "65%"}}/>
           <div className="explicacao">
             <p className="explicacao-titulo">Explicação:</p>
-            <p className="explicacao-texto">jffhidfhifhfhffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffff
-            fffffffffffffffffffffffffffffffffffffffffffffffffdssdsddssdsdsdasdsssssssfffffff
+            <p className="explicacao-texto">Desmatamento. O desmatamento é uma prática muito comum para a
+             realização da agropecuária. A retirada da cobertura vegetal provoca a redução da biodiversidade, extinção de espécies animais e vegetais, desertificação, erosão, redução dos nutrientes 
+            do solo, contribui para o aquecimento global, entre outros danos.
             </p>
            </div>
-           <Link className="link" to="/Question01">
+           <Link className="link" to="/Question02">
                 <div className="proxima"><p>PRÓXIMA</p></div>
           </Link>
     </div>
