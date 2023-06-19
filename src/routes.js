@@ -42,7 +42,8 @@ import Question12Error from './pages/question12/question12error';
 import Question13 from './pages/question13/question13question';
 import Question13Correct from './pages/question13/question13correct';
 import Question13Error from './pages/question13/question13error';
-
+import Results from './pages/results';
+import References from './pages/references';
 
 
 
@@ -91,6 +92,9 @@ export default function Function_Routes() {
         <Route path='/Question13' exact element={ <Question13/> } />
         <Route path='/Question13 ' exact element={ <Question13Error/> } />
         <Route path='/Question13  ' exact element={ <Question13Correct/> } />
+        <Route path='/Results' exact element={ <Results/> } />
+        <Route path='/References' exact element={ <References/> } />
+
     </Routes>
     </BrowserRouter>
   );

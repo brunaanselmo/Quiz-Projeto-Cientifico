@@ -6,6 +6,6 @@ export default function Question13Correct() {
 
     return (
         <Correct explicacao = "aa"
-        linkto = ""/>
+        linkto = "/Results"/>
     );
   }

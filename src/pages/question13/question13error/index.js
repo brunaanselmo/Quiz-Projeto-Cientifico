@@ -6,6 +6,6 @@ export default function Question13Error() {
 
     return (
         <Error explicacao = "fff"
-        linkto = ""/>
+        linkto = "/Results"/>
     );
   }

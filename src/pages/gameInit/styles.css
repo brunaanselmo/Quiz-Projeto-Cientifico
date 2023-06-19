@@ -56,6 +56,11 @@ justify-content: space-evenly;
   cursor: pointer;
 }
 
+.botao-start:hover{
+  transition: 400ms linear;
+  background-color: rgba(44, 190, 44, 0.959);
+  }
+
 .link {
   text-decoration: none;
   color: black;
