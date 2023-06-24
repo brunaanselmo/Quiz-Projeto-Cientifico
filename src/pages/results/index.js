@@ -36,7 +36,7 @@ export default function Results() {
        <div><p>12- </p><AiOutlineCloseCircle/></div>
        <div><p>13- </p><AiOutlineCloseCircle/></div>
   </div>
-  <Link className="link" to="">
+  <Link className="link" to="/References">
             <div className="proximo"><p>PRÓXIMA</p></div>
       </Link>
       </div> 

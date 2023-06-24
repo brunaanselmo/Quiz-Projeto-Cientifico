@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;  
 }
 
 .app {
@@ -17,12 +17,77 @@ box-shadow: 3px 3px 12px 0px rgba(51, 50, 50, 0.603);
 justify-content: space-evenly;
 }
 
+.texto-input{
+  display:flex;
+  flex-direction: row;
+}
+
+
 .text{
-  width: 75%;
+  width: 55%;
   font-size: 23px;
   font-weight: 400;
   color: black;
 }
+
+
+.label-float{
+  position: relative;
+  padding-top: 18px;
+  font-size: 28px;
+  margin-top: 10%;
+  margin-left: 4%;
+}
+
+.label-float input{
+  border: 0;
+  border-bottom: 2px solid lightgrey;
+  outline: none;
+  min-width: 360px;
+  font-size: 18px;
+  transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -webkit-appearance:none;
+  border-radius:0;
+}
+
+.label-float input:focus{
+  border-bottom: 3px solid rgb(89, 221, 89);
+}
+
+.label-float input::placeholder{
+  color:transparent;
+}
+
+.label-float label{
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+}
+
+.label-float input:required:invalid + label{
+  color: red;
+}
+.label-float input:focus:required:invalid{
+  border-bottom: 2px solid red;
+}
+.label-float input:required:invalid + label:before{
+  content: '*';
+}
+.label-float input:focus + label,
+.label-float input:not(:placeholder-shown) + label{
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 0;
+  color: rgb(89, 221, 89);
+}
+
 
 .quiz {
   color:rgb(89, 221, 89);

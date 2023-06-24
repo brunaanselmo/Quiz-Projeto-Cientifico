@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;  
+  }
+  
+  .app-references {
+  background-color: white;
+  width: 1100px;
+  min-height: 520px;
+  height: min-content;
+  border-radius: 7px;
+  padding: 80px;
+  box-shadow: 3px 3px 12px 0px rgba(51, 50, 50, 0.603);
+  justify-content: space-evenly;
+  }
+  
+  .end-img{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .img{
+    margin-left: 35%;
+  }
+
+  .end{
+    margin-left: 30px;
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(89, 221, 89);
+  }
+  
+  .references{
+    margin-top:130px;
+    font-size:25px;
+    margin-left: 40px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: black;
+  }
