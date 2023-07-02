@@ -7,13 +7,13 @@ export default function Question13() {
 
   return (
     <Question number="13"
-    question = "questao"
+    question = "Em média, quantas toneladas de alimentos são desperdiçadas por ano?"
     link01to = "/Question13 "
-    question01 = "a"
+    question01 = "1,9 milhão"
     link02to = "/Question13  "
-    question02 = "b"
+    question02 = "1,5 milhão"
     link03to = "/Question13 "
-    question03 = "c"
+    question03 = "1,3 bilhão"
     />
   );
 }
