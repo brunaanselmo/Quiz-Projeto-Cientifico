@@ -6,10 +6,11 @@ import Results from "../../../components/results";
 
 export default function Question01() {
 
-  <Results/>
+ 
   
   return (
     <>
+    <Results/>
     <Question number="1"
     question = "Qual a principal causa do desmatamento mundial?"
     link01to = "/Question01 "

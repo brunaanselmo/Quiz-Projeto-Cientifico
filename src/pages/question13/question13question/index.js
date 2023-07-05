@@ -10,9 +10,9 @@ export default function Question13() {
     question = "Em média, quantas toneladas de alimentos são desperdiçadas por ano?"
     link01to = "/Question13 "
     question01 = "1,9 milhão"
-    link02to = "/Question13  "
+    link02to = "/Question13 "
     question02 = "1,5 milhão"
-    link03to = "/Question13 "
+    link03to = "/Question13  "
     question03 = "1,3 bilhão"
     />
   );

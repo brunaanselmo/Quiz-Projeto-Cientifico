@@ -4,14 +4,17 @@ import { Link } from "react-router-dom";
 import Container from "@material-ui/core/Container";
 import { TbMoodHappy } from "react-icons/tb";
 import { GiPartyPopper } from "react-icons/gi";
-
-
+import Results from "../../../components/results";
+import Results_2 from "../../../components/results_2";
 import "./styles.css";
 
 
 export default function Question01Correct() {
-
+ 
   return (
+    <>
+    <Results anwser1="1"/>
+    <Results_2></Results_2>
     <Container className="container">
     <div className="app-explicacao">
       <div className="navbar">
@@ -34,5 +37,6 @@ export default function Question01Correct() {
           </Link>
     </div>
   </Container>
+  </>
   );
 }

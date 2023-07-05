@@ -4,16 +4,15 @@ import { Link } from "react-router-dom";
 import Container from "@material-ui/core/Container";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { TbMoodSad2 } from "react-icons/tb";
-
-
-
+import Results from "../../../components/results";
 import "./styles.css";
 
 
 export default function Question01Error() {
 
   return (
-
+    <>
+    <Results anwser1="0"/>
     <Container className="container">
     <div className="app-explicacao">
       <div className="navbar">
@@ -37,5 +36,6 @@ export default function Question01Error() {
           </Link>
     </div>
   </Container>
+  </>
   );
 }

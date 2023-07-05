@@ -23,7 +23,7 @@ const rota = () => {
             <br />citados. </p>
           <div className="label-float">
             <input id="email" type="email" required />
-            <label for="email">E-mail</label>
+            <label htmlFor="email">E-mail</label>
           </div>
         </div>
         <div className="next-question">
