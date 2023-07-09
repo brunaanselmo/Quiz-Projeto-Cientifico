@@ -23,7 +23,7 @@
   }
 
   .img{
-    margin-left: 35%;
+    margin-left: 20%;
   }
 
   .end{
@@ -34,7 +34,7 @@
   }
   
   .references{
-    margin-top:130px;
+    margin-top: 55px;
     font-size:25px;
     margin-left: 40px;
   }
@@ -50,3 +50,73 @@
     text-decoration: none;
     color: black;
   }
+
+  .label-float-references{
+    position: relative;
+    padding-top: 18px;
+    font-size: 28px;
+    margin-top: 7%;
+    margin-left: 47px;
+  }
+  
+  .label-float-references input{
+    border: 0;
+    border-bottom: 2px solid lightgrey;
+    outline: none;
+    min-width: 360px;
+    font-size: 18px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -webkit-appearance:none;
+    border-radius:0;
+  }
+  
+  .label-float-references input:focus{
+    border-bottom: 3px solid rgb(89, 221, 89);
+  }
+  
+  .label-float-references input::placeholder{
+    color:transparent;
+  }
+  
+  .label-float-references label{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+  }
+  
+
+  .label-float-references input:focus + label,
+  .label-float-references input:not(:placeholder-shown) + label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0;
+    color: rgb(89, 221, 89);
+  }
+
+  .botao-references{
+    width: 90px;
+    height:35px;
+    background-color: rgba(89, 221, 89, 0.959);
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px 0.5px rgba(51, 50, 50, 0.507);
+    cursor: pointer;
+    border:none;
+    font-weight: 600;
+    font-style: bold;
+    color:  white;
+    font-size: 18px;
+    margin-left: 43px;
+    margin-top: 10px;
+  }
+  
+  .botao-references:hover{
+    transition: 400ms linear;
+    background-color: rgba(44, 190, 44, 0.959);
+    }

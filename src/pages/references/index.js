@@ -17,6 +17,12 @@ function handleClick(){
           <p className="end">Obrigada!</p>
           <p className="references">Referências:</p>
           <FiFileText className="icone" style={{width:"80px", height:"80px", color: "rgb(89, 221, 89)", marginLeft: "17%", marginTop:"3%", cursor:"pointer"}} onClick={handleClick}/>
+          <div className="label-float-references">
+            <input id="feedback" type="text" />
+            <label htmlFor="feedback">Comentários</label>
+          </div>
+          <button className="botao-references">Enviar</button>
+
           </div>
           <div className="img">
           <Img style={{ widht: "160px", height: "160px", marginLeft:"20%"}}></Img>
