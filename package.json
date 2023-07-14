@@ -1,7 +1,7 @@
 {
   "name": "quiz-meio-ambiente",
   "version": "0.1.0",
-  "homepage": "https://brunaanselmo.github.io/Quiz-Projeto-Cientifico/",
+  "homepage": "https://brunaanselmo.github.io/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",
