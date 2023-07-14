@@ -4,13 +4,46 @@ import Container from "@material-ui/core/Container";
 import Img from "../../components/img";
 import { FiFileText } from "react-icons/fi"
 import "./styles.css";
+import api from "../../api";
+import axios from 'axios';
 
 export default function References() {
 
-
 const [feedback, setFeedback] = useState('');
+  // const email = localStorage.getItem("emailkey");
+  // const anwsers = [];
+  // anwsers[0] = localStorage.getItem("question01");
+  // anwsers[1] = localStorage.getItem("question02");
+  // anwsers[2] = localStorage.getItem("question03");
+  // anwsers[3] = localStorage.getItem("question04");
+  // anwsers[4] = localStorage.getItem("question05");
+  // anwsers[5] = localStorage.getItem("question06");
+  // anwsers[6] = localStorage.getItem("question07");
+  // anwsers[7] = localStorage.getItem("question08");
+  // anwsers[8] = localStorage.getItem("question09");
+  // anwsers[9] = localStorage.getItem("question10");
+  // anwsers[10] = localStorage.getItem("question11");
+  // anwsers[11] = localStorage.getItem("question12");
+  // anwsers[12] = localStorage.getItem("question13");
+  // const coments = localStorage.getItem("feedbackkey");
 
 let feedbackUser = "";
+let email = "";
+let anwser1 = "";
+let anwser2 = "";
+let anwser3 = "";
+let anwser4 = "";
+let anwser5 = "";
+let anwser6 = "";
+let anwser7 = "";
+let anwser8 = "";
+let anwser9 = "";
+let anwser10 = "";
+let anwser11 = "";
+let anwser12 = "";
+let anwser13 = "";
+let data;
+
 
 const handleChange = (event) => {
   setFeedback(event.target.value);
@@ -22,13 +55,71 @@ function handleClick(){
 }
 
 
+
 const handleClick2 = (event) => {
   if (feedback){
   localStorage.setItem("feedbackkey", JSON.stringify(feedback));
   console.log(feedback);
   feedbackUser = localStorage.getItem("feedbackkey");
   console.log(feedbackUser);
+  email = localStorage.getItem("emailkey");
+  anwser1 = localStorage.getItem("question01");
+  anwser2 = localStorage.getItem("question02");
+  anwser3 = localStorage.getItem("question03");
+  anwser4 = localStorage.getItem("question04");
+  anwser5 = localStorage.getItem("question05");
+  anwser6 = localStorage.getItem("question06");
+  anwser7 = localStorage.getItem("question07");
+  anwser8 = localStorage.getItem("question08");
+  anwser9 = localStorage.getItem("question09");
+  anwser10 = localStorage.getItem("question10");
+  anwser11 = localStorage.getItem("question11");
+  anwser12 = localStorage.getItem("question12");
+  anwser13 = localStorage.getItem("question13");
   alert("Comentário enviado. Obrigada!");
+  console.log("--------------------------------------");
+  console.log(email);
+  console.log(anwser1);
+  console.log(anwser2);
+  console.log(anwser3);
+  console.log(anwser4);
+  console.log(anwser5);
+  console.log(anwser6);
+  console.log(anwser7);
+  console.log(anwser8);
+  console.log(anwser9);
+  console.log(anwser10);
+  console.log(anwser11);
+  console.log(anwser12);
+  console.log(anwser13);
+  console.log(feedbackUser);
+  console.log("--------------------------------------");
+  const res = api
+  .post("anwsers", {
+      anwser1: anwser1,
+      anwser2: anwser2,
+      anwser3: anwser3,
+      anwser4: anwser4,
+      anwser5: anwser5,
+      anwser6: anwser6,
+      anwser7: anwser7,
+      anwser8: anwser8,
+      anwser9: anwser9,
+      anwser10: anwser10,
+      anwser11: anwser11,
+      anwser12: anwser12,
+      anwser13: anwser13,
+      email: email,
+      feedback: feedbackUser,       
+  })
+  .then((response) => {
+    console.log(response);
+    console.log(res);
+  })
+  .catch((e) => {
+    console.log(e);
+    console.log(res);
+    })
   }
 };
 
