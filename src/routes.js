@@ -50,7 +50,7 @@ export default function Function_Routes() {
   return (
     <BrowserRouter>
     <Routes>
-        <Route path='/' exact element={ <Home/> } />
+        <Route path='/Quiz-home' exact element={ <Home/> } />
         <Route path='/GameInit' exact element={ <GameInit/> } />
         <Route path='/Question01' exact element={ <Question01/> } />
         <Route path='/Question01 ' exact element={ <Question01Error/> } />
