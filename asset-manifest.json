@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.96edaf47.css",
-    "main.js": "/static/js/main.03bd9b24.js",
-    "static/media/capa.png": "/static/media/capa.4a224d0ddf3c0c1a9ad4.png",
-    "index.html": "/index.html",
-    "main.96edaf47.css.map": "/static/css/main.96edaf47.css.map",
-    "main.03bd9b24.js.map": "/static/js/main.03bd9b24.js.map"
+    "main.css": "/Quiz-Projeto-Cientifico/static/css/main.96edaf47.css",
+    "main.js": "/Quiz-Projeto-Cientifico/static/js/main.1529e1c9.js",
+    "static/media/capa.png": "/Quiz-Projeto-Cientifico/static/media/capa.4a224d0ddf3c0c1a9ad4.png",
+    "index.html": "/Quiz-Projeto-Cientifico/index.html",
+    "main.96edaf47.css.map": "/Quiz-Projeto-Cientifico/static/css/main.96edaf47.css.map",
+    "main.1529e1c9.js.map": "/Quiz-Projeto-Cientifico/static/js/main.1529e1c9.js.map"
   },
   "entrypoints": [
     "static/css/main.96edaf47.css",
-    "static/js/main.03bd9b24.js"
+    "static/js/main.1529e1c9.js"
   ]
 }
