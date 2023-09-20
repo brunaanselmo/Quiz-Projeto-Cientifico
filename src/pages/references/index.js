@@ -133,7 +133,7 @@ const handleClick2 = (event) => {
           <FiFileText className="icone" style={{width:"80px", height:"80px", color: "rgb(89, 221, 89)", marginLeft: "17%", marginTop:"3%", cursor:"pointer"}} onClick={handleClick}/>
           <div className="label-float-references">
             <input id="feedback" type="text" value={feedback} onChange={handleChange} />
-            <label htmlFor="feedback">Comentários</label>
+            <label htmlFor="feedback">Comentários*</label>
           </div>
           <button className="botao-references" onClick={handleClick2}>Enviar</button>
 
