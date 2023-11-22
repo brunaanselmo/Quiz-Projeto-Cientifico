@@ -10,23 +10,6 @@ import axios from 'axios';
 export default function References() {
 
 const [feedback, setFeedback] = useState('');
-  // const email = localStorage.getItem("emailkey");
-  // const anwsers = [];
-  // anwsers[0] = localStorage.getItem("question01");
-  // anwsers[1] = localStorage.getItem("question02");
-  // anwsers[2] = localStorage.getItem("question03");
-  // anwsers[3] = localStorage.getItem("question04");
-  // anwsers[4] = localStorage.getItem("question05");
-  // anwsers[5] = localStorage.getItem("question06");
-  // anwsers[6] = localStorage.getItem("question07");
-  // anwsers[7] = localStorage.getItem("question08");
-  // anwsers[8] = localStorage.getItem("question09");
-  // anwsers[9] = localStorage.getItem("question10");
-  // anwsers[10] = localStorage.getItem("question11");
-  // anwsers[11] = localStorage.getItem("question12");
-  // anwsers[12] = localStorage.getItem("question13");
-  // const coments = localStorage.getItem("feedbackkey");
-
 let feedbackUser = "";
 let email = "";
 let anwser1 = "";
