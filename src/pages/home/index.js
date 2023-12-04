@@ -13,7 +13,7 @@ export default function Home() {
 <Container className="container">
 <div className="app-home">
   <div className="title-img">
-  <p className="title"><span className="quiz">Quiz</span> Meio ambiente <br></br> e cotidiano</p>
+  <p className="title"><span className="quiz">Quiz</span> Meio ambiente <br></br> e Veganismo</p>
   <Img style={{widht:"120px", height:"120px"}}></Img>
   </div>
   <div className="menu">
