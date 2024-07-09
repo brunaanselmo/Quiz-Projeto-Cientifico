@@ -34,7 +34,7 @@ const handleChange = (event) => {
 };
 
 function handleClick(){
-  window.location.assign("https://drive.google.com/file/d/1HrZ-4ZQfF7ZKPKMrB7rCOqdFCXgEhwSe/view?usp=sharing");
+  window.location.assign("https://drive.google.com/file/d/1lSQkHJQa6nrUwu4Yo20yYTUQuzlvrYYR/view?usp=sharing");
 }
 
 
